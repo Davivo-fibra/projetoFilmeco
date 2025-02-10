@@ -1,0 +1,80 @@
+body {
+    background-color: #15181c; 
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #15181c; 
+}
+.logo img {
+    height: 50px; 
+}
+.btn-search {
+    padding: 8px;
+    border: none;
+    background-color: #333; 
+    color: white;
+    cursor: pointer;
+    width: 40px; 
+}
+.btn-search img{
+    height: 20px;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    transition: background 0.2s;
+}
+.btn-catalog{
+    background-color: #424242;
+    padding: 10px 25px;
+}
+.btn-catalog:hover{
+    background-color: #363636;
+}
+.search-bar:focus {
+    border-color: #00a2ff; 
+    outline: none; 
+}
+.btn-login {
+    background-color: #424242;
+    padding: 8px 50px;
+}
+.btn-login:hover {
+    background-color: #363636;
+}
+.btn-signup {
+    background-color: #007bffd8;
+    padding: 8px 50px;
+}
+.btn-signup:hover {
+    background-color: #0056b3;
+}
+.catalog {
+    display: flex;
+    gap: 5px;
+}
+.search-form {
+    display: flex;
+}
+.col{
+    color: #ffffffcc;
+    margin-left: 30px;
+    margin-right: 50%;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.btn-createacc{
+    padding: 8px 30px;
+    background-color: #007bffd8;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-createacc:hover{
+    background-color: #0056b3;
+}
