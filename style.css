@@ -63,10 +63,10 @@ body {
 }
 .col{
     color: #ffffffcc;
-    margin-left: 30px;
+    margin-left: 1.5%;
     margin-right: 50%;
-    margin-bottom: 60px;
-    margin-top: 80px;
+    margin-bottom: 4%;
+    margin-top: 3%;
 }
 .btn-createacc{
     padding: 8px 30px;
@@ -77,4 +77,19 @@ body {
 }
 .btn-createacc:hover{
     background-color: #0056b3;
+}
+.container{
+    width: 15%;
+    height: 30%;
+    background-color: #0000004d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    border-radius: 10px;
+    align-content:
+}
+.signup{
+
 }
