@@ -25,19 +25,19 @@ body {
 }
 .btn {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 7px;
     transition: background 0.2s;
 }
-.btn-catalog{
+.btn-films{
     background-color: #424242;
     padding: 10px 25px;
 }
-.btn-catalog:hover{
+.btn-films:hover{
     background-color: #363636;
 }
 .search-bar:focus {
-    border-color: #00a2ff; 
+    border-color: #007bffd8; 
     outline: none; 
 }
 .btn-login {
@@ -78,6 +78,12 @@ body {
 .btn-createacc:hover{
     background-color: #0056b3;
 }
+
+
+
+
+
+
 .container{
     width: 15%;
     height: 30%;
@@ -88,8 +94,12 @@ body {
     transform: translate(-50%, -50%);
     padding: 5%;
     border-radius: 10px;
-    align-content:
-}
-.signup{
 
+}
+.btn-submit{
+    background-color: #007bffd8;
+    padding: 8px 50px;
+}
+.username,.password{
+    margin-bottom: 5%;
 }
